@@ -1,7 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:wallpaper_app_new/cubit/home_state.dart';
 import 'package:wallpaper_app_new/data/repository/wallpaper_repository.dart';
 import 'package:wallpaper_app_new/model/wallpaper_model.dart';
+
+import 'home_state.dart';
 
 class HomeCubit extends Cubit<HomeState>{
 

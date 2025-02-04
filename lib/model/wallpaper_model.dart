@@ -12,17 +12,20 @@ class PhotoModel{
   SrcModel src;
   String url;
   int width;
-  PhotoModel({required this.alt,required this.avg_color,required this.height,required this.id,
-    required this.liked,required this.photographer,required this.photographer_id,required this.photographer_url,
-  required this.width,required this.src,required this.url});
+  PhotoModel({
+    required this.alt,
+    required this.avg_color,
+    required this.height,
+    required this.id,
+    required this.liked,
+    required this.photographer,
+    required this.photographer_id,
+    required this.photographer_url,
+  required this.width,
+    required this.src,
+    required this.url});
 
 factory PhotoModel.fromJson(Map<String,dynamic> json){
-
-  // List<SrcModel> mSrc=[];
-  // for(Map<String,dynamic> eachSrc in json["src"]){
-  //   mSrc.add(SrcModel.fromJson(eachSrc));
-  //
-  // }
 
   return PhotoModel(alt: json["alt"], avg_color: json["avg_color"], height:json[" height"], id: json["id"],
       liked: json["liked"], photographer: json["photographer"], photographer_id: json["photographer_id"],

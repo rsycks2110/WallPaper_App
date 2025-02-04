@@ -1,5 +1,5 @@
 
-import '../model/wallpaper_model.dart';
+import '../../model/wallpaper_model.dart';
 
 abstract class HomeState{}
 

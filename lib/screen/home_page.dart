@@ -3,11 +3,11 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:wallpaper_app_new/app_widget/app_widgets.dart';
 import 'package:wallpaper_app_new/constants/app_constants.dart';
-import 'package:wallpaper_app_new/cubit/home_cubit.dart';
-import 'package:wallpaper_app_new/cubit/home_state.dart';
+import 'package:wallpaper_app_new/cubit/trending_wallpaper_cubit/home_cubit.dart';
 import 'package:wallpaper_app_new/utils/utils.dart';
+
+import '../cubit/trending_wallpaper_cubit/home_state.dart';
 
 class HomePage extends StatefulWidget {
 

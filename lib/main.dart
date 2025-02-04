@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:wallpaper_app_new/cubit/home_cubit.dart';
-import 'package:wallpaper_app_new/cubit/home_state.dart';
+import 'package:wallpaper_app_new/cubit/trending_wallpaper_cubit/home_cubit.dart';
 import 'package:wallpaper_app_new/data/remote/api_helper.dart';
 import 'package:wallpaper_app_new/data/repository/wallpaper_repository.dart';
 import 'package:wallpaper_app_new/screen/home_page.dart';
