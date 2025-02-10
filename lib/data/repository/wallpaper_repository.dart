@@ -13,8 +13,15 @@ class WallPaperRepository{
    try {
      return await apiHelper!.getApi(url: Urls.tredingWallPaperUrl);
    } catch(e){
-     throw(e);
+     throw(e.toString());
    }
+  }
+  Future<dynamic> getSearchWallPaperRepository({required String mQuery,String mColor="",int mPage=1}) async{
+    try {
+      return await apiHelper!.getApi(url: "${Urls.searchWallPaperUrl}?query=$mQuery&color=$mColor&page=$mPage");
+    } catch(e){
+      throw(e.toString());
+    }
   }
 
 

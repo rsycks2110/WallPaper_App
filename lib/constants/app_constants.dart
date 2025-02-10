@@ -4,16 +4,47 @@ class AppConstants {
   static final String app_key_wallpaper =
       "sM95Ekb64WvbvjL7HlbnQ2rvxGpcWpgMHwABsdcSXVIMQpFIJaCgVKUm";
 
-  static const List<Color> mColor = [
-    Color(0xfffeb7bb),
-    Color(0xff4165e0),
-    Color(0xff6243de),
-    Color(0xff60bfc1),
-    Color(0xff292929),
-    Color(0xfffe990d),
-    Color(0xffa14ae9),
-    Color(0xffa1adc3),
-    Color(0xff7a8b83),
+  static const List<Map<String,dynamic>> mColor = [
+    {
+      "color":Color(0xfffeb7bb),
+      "code":"ffeb7bb"
+    },
+    {
+      "color": Color(0xff4165e0),
+      "code":"4165e0"
+    },
+    {
+      "color":Color(0xff6243de),
+      "code":"6243de"
+    },
+    {
+      "color": Color(0xff60bfc1),
+      "code":"60bfc1"
+    },
+    {
+      "color": Color(0xff292929),
+
+      "code":"292929"
+    },
+    {
+      "color": Color(0xfffe990d),
+      "code":"fe990d"
+    },
+    {
+      "color": Color(0xffa14ae9),
+      "code":"a14ae9"
+    },
+    {
+      "color":Color(0xffa1adc3),
+      "code":"a1adc3"
+    },
+    {
+      "color": Color(0xff7a8b83),
+      "code":"7a8b83"
+    },
+
+
+
   ];
   static const List<Map<String, dynamic>> mCategory = [
     {

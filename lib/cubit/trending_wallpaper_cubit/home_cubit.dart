@@ -16,7 +16,7 @@ class HomeCubit extends Cubit<HomeState>{
 
      var wallPaperModel = WallPaperModel.fromJson(mData);
      if(wallPaperModel!=null){
-       emit(HomeLoadedState(photos: wallPaperModel.photos));
+       emit(HomeLoadedState(photos: wallPaperModel.photos!));
      }
      else{
        emit(HomeErrorState(errorMsg: "Error Occured"));

@@ -49,4 +49,14 @@ class AppUtils {
     );
   }
 
+  static TextStyle mTextStyle34(
+      {Color mColor = Colors.black, FontWeight mFontWeight = FontWeight.normal}) {
+    return TextStyle(
+        color: mColor,
+        fontSize: 34,
+        fontWeight: mFontWeight,
+        fontFamily: "mainFont"
+    );
+  }
+
 }

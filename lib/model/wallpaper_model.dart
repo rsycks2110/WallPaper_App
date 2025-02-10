@@ -1,17 +1,17 @@
 import 'dart:convert';
 
 class PhotoModel{
-  String alt;
-  String avg_color;
-  int height;
-  int id;
-  bool liked;
-  String photographer;
-  int photographer_id;
-  String photographer_url;
-  SrcModel src;
-  String url;
-  int width;
+  String? alt;
+  String? avg_color;
+  int? height;
+  int? id;
+  bool? liked;
+  String? photographer;
+  int? photographer_id;
+  String? photographer_url;
+  SrcModel? src;
+  String? url;
+  int? width;
   PhotoModel({
     required this.alt,
     required this.avg_color,
@@ -48,14 +48,14 @@ factory PhotoModel.fromJson(Map<String,dynamic> json){
   }
 }
 class SrcModel{
-  String landscape;
-  String large;
-  String large2x;
-  String medium;
-  String original;
-  String portrait;
-  String small;
-  String tiny;
+  String? landscape;
+  String? large;
+  String? large2x;
+  String? medium;
+  String? original;
+  String? portrait;
+  String? small;
+  String? tiny;
 
   SrcModel({required this.large, required this.landscape,required this.large2x,required this.medium,required this.original,
     required this.portrait,required this.small, required this.tiny});
@@ -76,11 +76,11 @@ class SrcModel{
 
 class WallPaperModel{
 
-  String next_page;
-  int page;
-  int per_page;
-  List<PhotoModel> photos;
-  int total_results;
+  String? next_page;
+  int? page;
+  int? per_page;
+  List<PhotoModel>? photos;
+  int? total_results;
 
   WallPaperModel({required this.next_page,required this.page,required this.per_page,required this.photos,required this.total_results});
 

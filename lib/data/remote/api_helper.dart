@@ -19,8 +19,7 @@ class ApiHelper{
    switch(response.statusCode){
      case 200:
      {
-       var data= jsonDecode(response.body);
-       print(response.body);
+       dynamic data= jsonDecode(response.body);
          return data;
        }
      default:
