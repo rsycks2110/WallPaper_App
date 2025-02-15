@@ -1,4 +1,4 @@
-
+ 
 class AppExceptions implements Exception{
 
   String title;
@@ -11,11 +11,11 @@ class AppExceptions implements Exception{
   }
 }
 class NetworkExceptions extends AppExceptions{
-  NetworkExceptions({required String errorMsg}):super(title: "",msg:errorMsg);
+  NetworkExceptions({required String errorMsg}):super(title: "Network Error",msg:errorMsg);
 }
 class ServerExceptions extends AppExceptions{
-  ServerExceptions({required String errorMsg}):super(title: "",msg: errorMsg);
+  ServerExceptions({required String errorMsg}):super(title: "Server Side error",msg: errorMsg);
 }
 class BadRequestException extends AppExceptions{
-  BadRequestException({required String errorMsg}):super(title:"",msg: errorMsg);
+  BadRequestException({required String errorMsg}):super(title:"Bad Request Error",msg: errorMsg);
 }
